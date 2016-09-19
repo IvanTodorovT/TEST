@@ -1,0 +1,234 @@
+@CHARSET "UTF-8";
+
+html{
+background-color: #88d7de
+}
+
+html{
+background: url(../images/test3.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.imgcontainer{
+	border: 3px solid black;
+	background-color: white;
+	width:20.1%;
+	padding: 0.5em;
+	display:inline-block;
+	margin-top: 3em;
+	margin-left: 10em;
+}
+
+.container{
+	display:inline-block;
+	width: 10em;
+	padding-left: 1em;
+}
+
+.container label {
+	
+	font-size : 2em;
+	
+	 width: 100%;
+	
+    padding: 12px 5px;
+    padding-right:0px;
+    
+    margin: 8px 0;
+    display: inline-block;
+   
+    box-sizing: border-box;
+}
+
+
+
+
+.container2{
+	display:inline-block;
+	width: 10em;
+}
+
+.container2 label {
+	
+	font-size : 2em;
+	font-weight: bold;
+	width: 60%;
+    padding: 12px 0px;
+    margin: 8px 0;
+    display: inline-block;
+   
+    box-sizing: border-box;
+}
+
+
+.container3{
+	display:inline-block;
+	width: 25em;
+}
+
+#btn{
+	
+	margin-top:3em;
+	margin-left: 10em;
+}
+
+#post{
+	margin-top: 5em;
+	width:90%;
+}
+#post label{
+	margin-left: 4.5em;
+	font-size: 1.5em;
+   font-weight: bold;
+}
+
+#post textarea{
+	margin-left: 8em;
+	margin-top: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button {        
+    display: inline-block;
+    white-space: nowrap;
+    background-color: #68a4ac;
+    background-image: linear-gradient(top, #eee, #ccc);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#cccccc');
+    border: 1px solid #777;
+    padding: 0 1.5em;
+    margin: 0.5em;
+    font: bold 1em/2em Arial, Helvetica;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 1px 0 rgba(255,255,255,.8);
+    border-radius: .2em;
+    box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+    float:right;
+    margin-right: 5em;
+}
+
+.button:hover {
+    background-color: #ddd;        
+    background-image: linear-gradient(top, #fafafa, #ddd);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa', EndColorStr='#dddddd');        
+}
+
+.button:active {
+    box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+    position: relative;
+    top: 1px;
+}
+
+.button:focus {
+    outline: 0;
+    background: #fafafa;
+}  
+
+.button:before {
+    background: #ccc;
+    background: rgba(0,0,0,.1);
+    float: left;        
+    width: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 1em 0 -1em;
+    padding: 0 .2em;
+    box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
+    border-radius: .15em 0 0 .15em;
+    pointer-events: none;        
+}
+
+/* Hexadecimal entities for the icons */
+
+.add:before {
+    content: "\271A";
+}
+
+.edit:before {
+    content: "\270E";        
+}
+
+.delete:before {
+    content: "\2718";        
+}
+
+.save:before {
+    content: "\2714";        
+}
+
+.email:before {
+    content: "\2709";        
+}
+
+.like:before {
+    content: "\2764";        
+}
+
+.next:before {
+    content: "\279C";
+}
+
+.star:before {
+    content: "\2605";
+}
+
+.spark:before {
+    content: "\2737";
+}
+
+.play:before {
+    content: "\25B6";
+}
+
+
+
+#btn2:focus {
+	
+    outline: 0;
+    background: red;
+}    
+
+
+#btn2{
+	margin-top:3em;
+	margin-left: 10em;
+}
+
+
+
+
+
+
+
+
+
+#btnSend:focus {
+	
+    outline: 0;
+    background: green;
+}    
+
+
+
+
+
+
+
+
+
+
+}
